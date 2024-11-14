@@ -1,0 +1,106 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 8vh;
+    display: grid;
+    top: 30%;  
+}
+.logo{
+    width: 30%;
+}
+.barre{
+    width: 10%;
+}
+.barre{
+    margin: 5px;
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 3vh;
+    justify-content: space-between;
+    position: fixed;
+    background: url(/image-header.jpg);
+    background-size: cover;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    display: none;
+  
+}
+button{
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    display: none;
+}
+div img{
+    width: 100%;   
+}
+div h1{
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 10%;
+}
+button{
+    border-radius: 30px;
+}
+.section img{
+    width: 100%;
+}
+.pommerouge{
+   position: absolute;
+   top: 252%;
+   left: 15%;
+}
+.pommeorange{
+   position: absolute;
+   top: 298%;
+   left: 15%;
+}
+.clients img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+}
+footer{
+    line-height: 10vh;
+    background: url(/image-header.jpg);
+    background-size: cover;  
+}
+footer h3{
+    text-align: center;
+}
+footer ul li,a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+footer ul, a{
+    display: flex;
+    text-align: center;
+}
+footer ul li{
+    margin: 0 3vh;
+    font-size: 20px;
+}
+footer img{
+   padding: 2vh; 
+}
+footer .img1{
+    margin-left: 20%;
+}
