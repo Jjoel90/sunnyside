@@ -31,9 +31,7 @@ body{
 }
 .nav{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 .nav a{
     color: aliceblue;
@@ -45,7 +43,7 @@ button{
     border: none;
     padding: 15px;
     font-weight: bold;
-    display: none;
+    
 }
 div img{
     width: 100%;   
